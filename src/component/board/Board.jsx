@@ -10,8 +10,8 @@ const Board = ({ images, title, desc }) => {
             {title}
           </p>
           <p className="md:text-lg text-xs text-gray-500 py-6 mr-4">{desc}</p>
-          <a href="">
-            <button className="bg-green text-white md:p-2 p-1 hover:bg-emerald-500 items-center rounded-md">
+          <a href="#">
+            <button className="bg-green text-base text-white md:w-32 md:h-14 w-24 h-8 hover:bg-emerald-500 items-center rounded-md">
               Learn more
             </button>
           </a>

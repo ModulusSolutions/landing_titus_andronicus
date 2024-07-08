@@ -7,7 +7,6 @@ import cl3 from "../assets/cl3.png"
 import cl4 from "../assets/cl4.png"
 import cl5 from "../assets/cl5.png"
 import cl6 from "../assets/cl6.png"
-import cl7 from "../assets/cl7.png"
 import m1 from "../assets/m1.png"
 import m2 from "../assets/m2.png"
 import m3 from "../assets/m3.png"
@@ -23,7 +22,12 @@ import circle from "../assets/circle.png"
 import tweter from "../assets/tweter.png"
 import yt from "../assets/yt.png"
 import send from "../assets/send.png"
-
+import t from "../assets/t.png"
+import ra from "../assets/Right.png"
+import raw from "../assets/wa.png"
+import crd1 from "../assets/card1.png"
+import crd2 from "../assets/card2.png"
+import crd3 from "../assets/card3.png"
 
 export const icon = icon2
 export const Pic = mainpic
@@ -33,7 +37,6 @@ export const clientLogo3 = cl3
 export const clientLogo4 = cl4
 export const clientLogo5 = cl5
 export const clientLogo6 = cl6
-export const clientLogo7 = cl7
 export const member = m1
 export const association = m2
 export const club1 = m3
@@ -49,5 +52,9 @@ export const circliLogo = circle
 export const twterLogo = tweter
 export const youtube = yt
 export const sendLogo = send
-
-
+export const tLogo = t
+export const rightArrow = ra
+export const rightWhitArow = raw
+export const card1 = crd1
+export const card2 = crd2
+export const card3 = crd3

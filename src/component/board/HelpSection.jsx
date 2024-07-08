@@ -29,7 +29,7 @@ const HelpSection = () => {
   ];
 
   return (
-    <div className="bg-olive-100  flex flex-col md:flex-row items-center md:justify-between p-8 py-5 px-4 md:px-20">
+    <div className="bg-olive-100  flex flex-col md:flex-row items-center md:justify-between p-8 py-5 px-4 md:px-20 2xl:px-44">
       <div className="md:mr-8 mb-6">
         <p className="text-xl md:text-4xl font-semibold text-gray-500 drop-shadow-md">
           Helping a local

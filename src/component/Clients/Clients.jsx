@@ -6,7 +6,6 @@ import {
   clientLogo4,
   clientLogo5,
   clientLogo6,
-  clientLogo7,
 } from "../../Utils/images";
 import Communitydata from "./Communitydata";
 
@@ -20,14 +19,14 @@ const Clients = () => {
             We have been working with some Fortune 500+ clients
           </p>
         </div>
-        <div className="flex justify-around p-8">
-          <img src={clientLogo1} alt="" />
-          <img src={clientLogo2} alt="" />
-          <img src={clientLogo3} alt=""  />
-          <img src={clientLogo4} alt=""  />
-          <img src={clientLogo5} alt=""  />
-          <img src={clientLogo6} alt=""  />
-          <img src={clientLogo7} alt=""  />
+        <div className="flex justify-center md:justify-around space-x-2 md:p-8 md:px-24 2xl:px-44">
+          <img src={clientLogo1} alt=""  className="size-7 sm:size-12 lg:size-16"/>
+          <img src={clientLogo2} alt=""  className="size-7 sm:size-12 lg:size-16"/>
+          <img src={clientLogo3} alt=""  className="size-7 sm:size-12 lg:size-16" />
+          <img src={clientLogo4} alt=""  className="size-7 sm:size-12 lg:size-16" />
+          <img src={clientLogo5} alt=""  className="size-7 sm:size-12 lg:size-16" />
+          <img src={clientLogo6} alt=""  className="size-7 sm:size-12 lg:size-16" />
+          <img src={clientLogo3} alt=""  className="size-7 sm:size-12 lg:size-16" />
         </div>
         <div className="p-4">
           <h1 className="text-center text-xl md:text-4xl text-gray-500 drop-shadow-md font-semibold">Manage your entire community <br /> in a single system</h1>
