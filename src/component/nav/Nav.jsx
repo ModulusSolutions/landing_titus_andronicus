@@ -16,17 +16,17 @@ const Nav = () => {
   ];
 
   return (
-    <div className="bg-olive-100 py-4 px-10 p-1 flex justify-between items-center">
+    <div className="bg-olive-100 py-4 px-10  flex justify-between items-center">
       <div className="flex items-center">
-        <img src={icon} alt="Icon" className="h-6 px-2" />
-        <h2 className="text-3xl text-blueberry-100 drop-shadow font-extrabold stroke-bck stroke-2">
+        <img src={icon} alt="Icon" className="h-6 px-2 drop-shadow-2xl" />
+        <h2 className="text-lg md:text-3xl text-blubery-100 drop-shadow-xl font-extrabold stroke-bck stroke-2">
           Nexcent
         </h2>
       </div>
       <div>
         <div
           onClick={() => setOpen(!open)}
-          className="text-black absolute right-10 top-6 md:hidden"
+          className="text-black-D absolute right-10 top-6 md:hidden"
         >
           {open ? <FaXmark /> : <FiMenu />}
         </div>
@@ -36,15 +36,17 @@ const Nav = () => {
           }`}
         >
           {header.map((nav, index) => (
-            <li key={index} className="text-md font-medium cursor-pointer">
+            <li key={index} className="text-md hover:text-gray-500 font-semibold cursor-pointer">
               <a href={nav.link}>{nav.name}</a>
             </li>
           ))}
         </ul>
       </div>
       <div className="flex px-10 space-x-3 items-center ">
-        <p className="text-green text-xl font-medium">Login</p>
-        <button className="bg-green p-2 text-white rounded-lg">Signup</button>
+        <p className="text-green md:text-xl font-semibold">Login</p>
+        <button className="bg-green md:text-xl sm:p-2 px-2 font-semibold text-white rounded-xl">
+          Signup
+        </button>
       </div>
     </div>
   );

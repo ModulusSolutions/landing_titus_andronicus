@@ -1,10 +1,15 @@
+
+import ParentBanner from "./component/board/ParentBanner";
+import Home from "./component/body/Home";
 import Nav from "./component/nav/Nav";
 
 
 function App() {
   return (
     <div>
-    <Nav/>
+      <Nav />
+      <Home />
+      <ParentBanner />
     </div>
   );
 }
