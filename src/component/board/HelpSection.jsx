@@ -1,6 +1,11 @@
 // HelpSection.js
 import React from "react";
-import { clubsm, contactLogo, eventLogo, paymentLogo } from "../../Utils/images";
+import {
+  clubsm,
+  contactLogo,
+  eventLogo,
+  paymentLogo,
+} from "../../Utils/images";
 import State from "./State"; // Assuming State component is defined similarly to Board
 
 const HelpSection = () => {
@@ -24,8 +29,7 @@ const HelpSection = () => {
       images: paymentLogo,
       title: "1,926,436",
       desc: "Payments",
-    }
-
+    },
   ];
 
   return (
@@ -48,7 +52,6 @@ const HelpSection = () => {
             images={data.images}
             title={data.title}
             desc={data.desc}
-            
           />
         ))}
       </div>

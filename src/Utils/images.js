@@ -1,5 +1,6 @@
 
 import icon2 from "../assets/Icon2.png"
+import iconf from "../assets/Iconft.png"
 import mainpic from "../assets/mainpic.png"
 import cl1 from "../assets/cl1.png"
 import cl2 from "../assets/cl2.png"
@@ -30,6 +31,7 @@ import crd2 from "../assets/card2.png"
 import crd3 from "../assets/card3.png"
 
 export const icon = icon2
+export const iconft = iconf
 export const Pic = mainpic
 export const clientLogo1 = cl1
 export const clientLogo2 = cl2

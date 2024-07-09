@@ -16,7 +16,7 @@ function App() {
       <Meet />
       <Card />
       <Footerprev />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

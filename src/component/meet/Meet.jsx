@@ -3,7 +3,7 @@ import { clientLogo2, clientLogo3, clientLogo4, clientLogo5, clientLogo6, flower
 
 const Meet = () => {
   return (
-    <div className="md:flex justify-between p-6 bg-olive-100 2xl:p-44">
+    <div className="md:flex justify-between mt-12 p-6 bg-olive-100 2xl:p-44">
       <div className="p-12 md: ml-20 px-4 md:w-2/5">
         <img src={tLogo} alt="logo" className="md:size-80" />
       </div>

@@ -9,6 +9,7 @@ module.exports = {
         'black-D': '#4D4D4D',
         'bck': '#000000',
         'green': '#4CAF4F',
+        'silver':'#F5F7FA',
       },
 
     },

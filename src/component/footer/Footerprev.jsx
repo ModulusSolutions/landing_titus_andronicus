@@ -4,8 +4,8 @@ import { rightWhitArow } from "../../Utils/images";
 const Footerprev = () => {
   return (
     <>
-      <div className="bg-olive-100 flex flex-col justify-center items-center mt-8 md:mt-24">
-        <p className="md:text-6xl text-xl font-semibold drop-shadow-md text-center text-bck p-10">
+      <div className="bg-olive-100 flex flex-col justify-center items-center mt-8 mb-8 md:mt-24">
+        <p className="md:text-6xl mt-2 text-2xl font-semibold drop-shadow-md text-center text-bck p-10">
           Pellentesque suscipit <br /> fringilla libero eu.
         </p>
         <a href="#">

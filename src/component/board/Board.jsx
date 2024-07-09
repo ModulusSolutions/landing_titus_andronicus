@@ -2,7 +2,7 @@ import React from "react";
 
 const Board = ({ images, title, desc }) => {
   return (
-    <div className="p-4">
+    <div className="p-4 mt-9">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <img src={images} alt="" className="" />
         <div className="">
