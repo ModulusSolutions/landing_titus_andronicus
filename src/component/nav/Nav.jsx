@@ -18,8 +18,8 @@ const Nav = () => {
   return (
     <nav className="bg-olive-100 py-4 px-10  flex md:justify-between items-center">
       <div className="flex items-center">
-        <img src={icon} alt="Icon" className="h-6 px-2 drop-shadow-2xl" />
-        <h2 className="text-lg md:text-3xl text-blubery-100 drop-shadow-xl font-extrabold stroke-bck stroke-2">
+        <img src={icon} alt="Icon" className="h-6 px-2 drop-shadow-md" />
+        <h2 className="text-lg md:text-3xl text-blubery-100 drop-shadow-md font-extrabold stroke-bck stroke-2">
           Nexcent
         </h2>
       </div>
