@@ -1,14 +1,22 @@
-import logo from "./logo.svg";
+
+import ParentBanner from "./component/board/ParentBanner";
+import Home from "./component/body/Home";
+import Card from "./component/card/Card";
+import Footer from "./component/footer/Footer";
+import Footerprev from "./component/footer/Footerprev";
+import Meet from "./component/meet/Meet";
+import Nav from "./component/nav/Nav";
 
 function App() {
   return (
     <div>
-      <header>
-        <div className="flex flex-col justify-center items-center">
-          <img src={logo} alt="logo" className="w-10 h-10" />
-          <p className="text-5xl">Hello world!</p>
-        </div>
-      </header>
+      <Nav />
+      <Home />
+      <ParentBanner />
+      <Meet />
+      <Card />
+      <Footerprev />
+      <Footer />
     </div>
   );
 }
